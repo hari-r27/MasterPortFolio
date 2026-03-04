@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf')
+       format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf')
+       format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* =========================
+   Font Utility
+========================= */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* =========================
+   Heading Classes
+========================= */
+.font-h1,
+.font-h2,
+.font-h3,
+.font-h4,
+.font-h5 {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+}
+
+/* Desktop (default) */
+.font-h1 { font-size: 3.5rem; font-weight: 700; line-height: 1.2; }
+.font-h2 { font-size: 2.75rem; font-weight: 600; line-height: 1.25; }
+.font-h3 { font-size: 2.1rem; font-weight: 600; line-height: 1.3; }
+.font-h4 { font-size: 1.6rem; font-weight: 500; line-height: 1.4; }
+.font-h5 { font-size: 1.25rem; font-weight: 500; line-height: 1.45; }
+
+/* =========================
+   Body Text
+========================= */
+.font-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  // color: #444;
+}
+.font-inner-text{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* =========================
+   Responsive Media Queries
+========================= */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .font-h1 { font-size: 3rem; }
+  .font-h2 { font-size: 2.4rem; }
+  .font-h3 { font-size: 1.9rem; }
+  .font-h4 { font-size: 1.45rem; }
+  .font-h5 { font-size: 1.15rem; }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .font-h1 { font-size: 2.4rem; }
+  .font-h2 { font-size: 2rem; }
+  .font-h3 { font-size: 1.6rem; }
+  .font-h4 { font-size: 1.3rem; }
+  .font-h5 { font-size: 1.1rem; }
+
+  .font-body {
+    font-size: 0.95rem;
+  }
+  .font-inner-text{
+     font-size: 0.75rem;
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .font-h1 { font-size: 2rem; }
+  .font-h2 { font-size: 1.7rem; }
+  .font-h3 { font-size: 1.45rem; }
+}
