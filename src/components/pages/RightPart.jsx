@@ -9,7 +9,7 @@ function RightPart() {
         duration: 0.6,
         ease: "easeOut",
       }}
-      className="bg-white w-[60%]  rounded-[1.5rem] flex justify-start items-center flex-col gap-[1rem] absolute right-[1rem] bottom-[1rem] top-[1rem] p-[2rem]"
+      className="bg-white w-[60%] z-10  rounded-[1.5rem] flex justify-start items-center flex-col gap-[1rem] absolute right-[1rem] bottom-[1rem] top-[1rem] p-[2rem]"
     >
       <div className="flex justify-start items-start flex-col gap-[1rem] w-full ">
         <motion.div
